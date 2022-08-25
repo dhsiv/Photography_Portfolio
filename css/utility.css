@@ -1,1 +1,67 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #photoSlider {
+    /* background: url(/images/BabyTurtle_mobile.jpg) no-repeat center center/cover; */
+    background: url(/images/FullResolution/WebDew.jpg) no-repeat center
+      center/cover;
+    max-width: 500px;
+  }
 
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* iPads (landscape) ----------- */
+/* @media only screen
+  and (min-width : 768px)
+  and (max-width : 1024px)
+  and (orientation : landscape) { */
+/* Styles */
+/* } */
+
+/* iPads (portrait) ----------- */
+/* @media only screen */
+/* and (min-width : 768px)
+  and (max-width : 1024px)
+  and (orientation : portrait) { */
+/* Styles */
+/* } */
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
